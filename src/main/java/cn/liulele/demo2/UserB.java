@@ -1,0 +1,17 @@
+package cn.liulele.demo2;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class UserB {
+
+    private Integer id;
+
+    private String bbName;
+
+    private String gender;
+}
